@@ -754,6 +754,9 @@ names to which it refers are bound."
 ;;;;;;; tree-sitter-hl-mode
       (tree-sitter-hl-face:variable (:foreground ,fg))
       (tree-sitter-hl-face:variable.builtin (:foreground ,syn-special-2 :slant italic))
+      (tree-sitter-hl-face:type.builtin (:foreground ,syn-type))
+      (tree-sitter-hl-face:function.call (:foreground ,syn-fun))
+      (tree-sitter-hl-face:constant.builtin (:foreground ,syn-special-3))
       (tree-sitter-hl-face:variable.parameter (:foreground ,syn-parameter))
       (tree-sitter-hl-face:variable.special (:foreground ,syn-special-3))
       (tree-sitter-hl-face:string (:foreground ,syn-string))
