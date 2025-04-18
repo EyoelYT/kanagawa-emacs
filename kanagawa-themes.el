@@ -811,6 +811,8 @@ names to which it refers are bound."
       (anzu-mode-no-match (:foreground ,fg :background ,extend-color-2))
       (anzu-replace-to (:foreground ,bright-blue :background ,diff-change))
       (anzu-replace-highlight (:foreground ,extend-color-2 :background ,diff-delete :strike-through t))
+;;;;;;; iedit
+      (iedit-occurrence (:background ,bright-blue :foreground ,black))
 ;;;;;;; company
       (company-tooltip (:background ,bg-m1))
       (company-tooltip-common (:foreground ,vcs-changed))
